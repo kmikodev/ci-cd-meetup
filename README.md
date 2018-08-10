@@ -21,7 +21,7 @@
     |       --------JENKINS_HOME (dar permisos  sudo chown -R 1000:1000 jenkins/JENKINS_HOME/)    
     --------nexus
     |       |
-    |       --------NEXUS_DATA (dar permiso sudo chown -R 200:200 nexus/NEXUS_DATA/)
+    |       --------NEXUS_DATA (dar permiso **sudo chown -R 200:200** nexus/NEXUS_DATA/)
     |
     --------nginx
     |       |
@@ -36,7 +36,7 @@
 
 - Añadir los host a nuestro host local
     - 127.0.0.1 jenkins.ci-cd-meetup.com nexus.ci-cd-meetup.com git.ci-cd-meetup.com 
-- Se recomienda instalar la herramienta scope para monitorizar contenedores 
+- Se recomienda instalar la herramienta scope para monitorizar contenedores  https://github.com/weaveworks/scope
 ## Arranque de los servicios
 
 - Arrancamos los contenedores.
